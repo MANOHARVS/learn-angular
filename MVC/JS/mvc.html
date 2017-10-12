@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>	
+<title>AngularJS Script</title>	
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+
+<script src="app.js"></script>
+</head>
+<body>
+    <div ng-controller="myCtr">
+        <!-- {{name}} -->
+        <!-- <table>
+                <table border="2">
+            <thead>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Designation</th>
+                <th>Salary</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in people">
+                <td>{{person.name}}</td>
+                <td>{{person.company}}</td>
+                <td>{{person.designation}}</td>
+                <td>{{person.salary}}</td>
+            </tr>
+            </tbody>
+        </table> -->
+        <!-- <table>
+            <table border="2">
+            <thead>
+                <th>Name</th>
+                <th>Id</th>
+                <th>Photo</th>
+                <th>Runs</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="person in players">
+                <td>{{person.name}}</td>
+                <td>{{person.id}}</td>
+                <td><img src="{{person.photo}}"></td>
+                <td>{{person.runs}}</td>
+            </tr>
+            </tbody>
+        </table> -->
+       <table>
+        <table border="2">
+        <thead>
+            <th>Login</th>
+            <th>Id</th>
+            <th>Avtar_URL</th>
+            <th>URL</th>
+        </thead>
+        <tbody>
+            <tr ng-repeat="person in players">
+            <td>{{person.login}}</td>
+            <td>{{person.id}}</td>
+            <td><img src="{{person.avatar_url}}"/></td>
+            <td>{{person.url}}></td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    </div>
+ 
+</body>
+</html>
